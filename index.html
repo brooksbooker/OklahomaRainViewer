@@ -9,6 +9,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OklahomaRainViewer</title>
+    
 </head>
 <body>
     <div id = "map"></div>
@@ -19,7 +20,7 @@
         }).addTo(map);
 
     // Change default options
-    L.control.rainviewer({ 
+ L.control.rainviewer({ 
         position: 'bottomleft',
         nextButtonText: '>',
         playStopButtonText: 'Play/Stop',
@@ -28,7 +29,7 @@
         opacitySliderLabelText: "Opacity:",
         animationInterval: 500,
         opacity: 0.5
-    }).addTo(map);
+ }).addTo(map);
 
     </script>
 </body>
